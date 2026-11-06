@@ -543,6 +543,11 @@ h3{font-family:var(--serif);font-weight:400;letter-spacing:-.02em}
   .step{grid-template-columns:1fr 1fr;gap:4vw}
 }
 @media (min-width:1100px){.gallery__grid{columns:4}}
+@media (max-width:1000px){
+  .float--c{display:none}
+  .float--a{right:6%;width:clamp(120px,19vw,200px)}
+  .float--b{right:3%;top:48%}
+}
 @media (max-width:900px){
   .nav__links,.nav__cta{display:none}
   .nav__burger{display:block}
